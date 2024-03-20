@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    font-family: Lato, "Helvetica Neue", sans-serif;
+    color: white;
+    display: grid;
+    grid-template-rows: auto auto 200px;
+    grid-template-columns: auto;
+    justify-items: center;
+    background-image: url("https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"),
+    linear-gradient(rgba(128, 48, 21,0.7), rgba(128, 48, 21,0.7));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#survey-form {
+    background: rgba(0,0,0,0.5);
+    border-radius: 1%;
+    background-size: 200% 200%;
+    padding: 2.5rem;
+}
+
+#intro {
+    grid-row: 1/2;
+}
+
+.forms {
+    padding: 0.25rem;
+    margin: 0 auto 1.25rem auto;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: 1px solid gainsboro;
+}

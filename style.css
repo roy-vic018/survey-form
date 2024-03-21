@@ -144,6 +144,17 @@ a:hover {
   padding: 0 10px;
 } /* Closed the missing brace */
 
+#text-area {
+  width: 100%;
+  height: 90px;
+  background: #ececec;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .icon {
   position: absolute;
   top: 15px;

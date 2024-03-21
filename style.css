@@ -129,7 +129,7 @@ a:hover {
 }
 
 .input_box input:focus {
-  border: 2px solid #06567e;
+  border: 2px solid #0d65bc;
 }
 
 .input-field:focus ~ .label,
@@ -154,6 +154,25 @@ a:hover {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.dropdown-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#dropdown {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23000' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
 }
 
 .icon {

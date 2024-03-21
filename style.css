@@ -165,7 +165,7 @@ a:hover {
 .remember-forgot {
   display: flex;
   justify-content: space-between;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .input-submit {

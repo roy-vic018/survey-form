@@ -119,6 +119,7 @@ a:hover {
   top: 15px;
   left: 20px;
   transition: 0.2s;
+  color: var(--second-color);
 }
 
 .input_box input:focus {

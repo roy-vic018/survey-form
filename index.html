@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form </title>
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap'><link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='https://codepen.io/derekbtw/pen/yEjBvx'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <div class="login_box">
+    <div class="login-header">
+      <span>Survey Form</span>
+    </div>
+
+    <div class="container">
+      <header id="intro">
+          <p id="description">This survey aims to gather feedback from our valued customers about their experience with our products and services. 
+            Your input will help us improve our offerings and provide you with a better experience. The survey should take no more than 5 minutes to complete. 
+            Thank you for your time and valuable feedback!</p>
+      </header>
+
+    <div class="input_box">
+      <input type="text" id="user" class="input-field" required>
+      <label for="user" class="label">Enter your name</label>
+      <i class="bx bx-user icon"></i>
+    </div>
+
+    <div class="input_box">
+      <input type="email" id="mail" class="input-field" required>
+      <label for="mail" class="label">Enter your email</label>
+      <i class="bx bx-lock-alt icon"></i>
+    </div>
+
+    <div class="input_box">
+      <input type="age" id="-age" class="input-field">
+      <label for="-age" class="label">Enter your age (optional)</label>
+      <i class="bx bx-user-circle icon"></i>
+    </div>
+
+    <label for="dropdown" id="current-role-label">How satisfied are you with our product and services?</label>
+        <br>
+        <select id="dropdown" name="Select Current Role" class="forms">
+            <option value="satisfied">Very Satisfied</option>
+            <option value="somewhat">Somewhat Satisfied</option>
+            <option value="neutral">Neutral</option>
+            <option value="dissatisfied">Somewhat Dissatisfied</option>
+            <option value="dissatisfied1">Very Dissatisfied</option>
+        </select>
+        <br>
+
+        <br>
+          <legend>Would you recommend our product and services to a friend or colleague?</legend>
+
+          <input id="yes" type="radio" name="items" value="yes">
+          <label for="yes" id="yes-label">Yes, definitely</label><br>
+
+          <input id="yes1" type="radio" name="items" value="yes1">
+          <label for="yes1" id="yes1-label">Yes, probably</label><br>
+
+          <input id="maybe" type="radio" name="items" value="maybe">
+          <label for="maybe" id="maybe-label">Maybe</label><br>
+
+          <input id="no" type="radio" name="items" value="no">
+          <label for="no" id="no-label">No, definitely not</label>
+      </br>
+
+      <br>
+      <label for="text-area" id="text-area-label">Have any additional comments?</label>
+        <textarea id="text-area" name="text-area" rows="4" cols="55" placeholder="Write additional comment here..."></textarea>
+        
+      </br>
+
+    <div class="remember-forgot">
+      <div class="remember-me">
+        <input type="checkbox" id="remember">
+        <label for="remember">Save my answers</label>
+      </div>
+
+      <div class="forgot">
+        <label for="help">Need help with your answers?</label>
+      </div>
+    </div>
+
+    <div class="input_box">
+      <input type="submit" class="input-submit" value="Submit">
+    </div>
+
+    <div class="register">
+      <span>Returning user? <a href="# ">Sign in here</a></span>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

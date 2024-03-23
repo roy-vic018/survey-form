@@ -220,4 +220,31 @@ a:hover {
   .login_box {
     padding: 7.5em 1.5em 4em 1.5em;
   }
+
+@media only screen and (max-width: 768px) {
+  .login_box {
+    width: 90%; 
+    max-width: 400px; 
+    padding: 4em 1.5em; 
+  }
+
+  .login-header {
+    width: 200px;
+  }
+
+  .input-field {
+    padding-inline: 20px; 
+  }
+
+  .icon {
+    right: 15px; 
+  }
+
+  .remember-forgot {
+    flex-direction: column; 
+  }
+
+  .input-submit {
+    height: 45px; 
+  }
 }
